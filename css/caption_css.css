@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.choose-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    display: inline-block;
+}
+.CameraButton{
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+.CloseCamera{
+    margin-left: 645px;
+    border-radius: 15px;
+    margin-bottom: 19px;
+}
+
+.CameraPreview{
+
+    border-radius: 10px;
+    margin-left: 43px;
+}
+
+@media (max-width:420px) {
+    
+    .CameraPreview{
+        width: 307px;
+        margin-right: 36px;
+        border-radius: 10px;
+        margin-left: 43px;
+    }
+
+    .CloseCamera{
+        margin-left: 133px;
+    }
+
+    #capturedImage
+    {
+        max-width: 100%;
+    max-height: 267px;
+    }
+
+    .CaptionText
+    {
+        font-size: 15px;
+    }
+}
+
+.GenerateAudio
+{
+    border-radius: 10px;
+}
+.choose-button:hover {
+    background-color: #0056b3;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#imagePreview {
+    margin-top: 20px;
+    font-weight: bold;
+}
